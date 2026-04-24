@@ -1,0 +1,29 @@
+/* css styles */
+
+/*-- scss:defaults --*/
+
+/*-- scss:defaults --*/
+
+$font-family-sans-serif: "Source Sans 3", system-ui, -apple-system, sans-serif;
+$headings-font-family: "Inter", sans-serif;
+
+// Greens
+$primary: #2e7d32;     // deep green
+$secondary: #66bb6a;   // lighter green
+
+// Greys
+$body-bg: #f7f9f7;     // very light grey-green
+$body-color: #2f3e2f;  // dark muted green-grey
+
+// Links
+$link-color: #388e3c;
+$link-hover-color: #1b5e20;
+
+.callout-note {
+  border-left: 4px solid #66bb6a;
+  background-color: #f1f8f4;
+}
+
+.callout-important {
+  border-left: 4px solid #2e7d32;
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "content/questions.html",
+    "href": "content/questions.html",
+    "title": "Open questions",
+    "section": "",
+    "text": "According to https://doi.org/10.1038/s43588-023-00461-y, Australia is at the top of high-income countries in term of carbon intensity ( 770 gCO2 e kWh −1) . It’s that accurate?"
+  },
+  {
+    "objectID": "content/presentations.html",
+    "href": "content/presentations.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "Let’s talk about Green Computing\n\n\nMy lightening talk about the project for eResearch NZ 2026.\n\n\n\n\n\nFeb 12, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Oh, hello there!",
+    "section": "",
+    "text": "This is a very opinionated website were I’m compiling information and tools around make research more sustainable. This is part of my project as a SSI fellow for 2026.\nThe key word here is “compiling”, for now I’m not planning to develop or write any new material about the topic (for now! and except for some presentations). The main goal is to create a list of specific resources that can be useful for researchers in Australia (and maybe Latin America?).\n\n\nI’m Pao, I have a PhD in Atmospheric Science from the University of Buenos Aires. During my PhD, I applied data assimilation techniques to improve the representation of mesoscale convective systems and associated precipitation. I have experience working with Numerical Weather Prediction models and developing software using R and Fortran. I’m also part of R-Ladies, a mentor at rOpenSci and part of the Board of Directors for The Carpentries. I’m interested in open source, open science and reproducibility. I also develop openly licensed materials to teach and learn R, reproducibility for researchers and other tools. In 2025, I joined the ARC Centre of Excellence for the Weather of the 21st Century as a research software engineer supporting research and the development of high-resolution climate models. And not, I’m also a SSI fellow!"
+  },
+  {
+    "objectID": "index.html#so-about-me",
+    "href": "index.html#so-about-me",
+    "title": "Oh, hello there!",
+    "section": "",
+    "text": "I’m Pao, I have a PhD in Atmospheric Science from the University of Buenos Aires. During my PhD, I applied data assimilation techniques to improve the representation of mesoscale convective systems and associated precipitation. I have experience working with Numerical Weather Prediction models and developing software using R and Fortran. I’m also part of R-Ladies, a mentor at rOpenSci and part of the Board of Directors for The Carpentries. I’m interested in open source, open science and reproducibility. I also develop openly licensed materials to teach and learn R, reproducibility for researchers and other tools. In 2025, I joined the ARC Centre of Excellence for the Weather of the 21st Century as a research software engineer supporting research and the development of high-resolution climate models. And not, I’m also a SSI fellow!"
+  },
+  {
+    "objectID": "content/publications-notes.html",
+    "href": "content/publications-notes.html",
+    "title": "Publications with notes",
+    "section": "",
+    "text": "List of papers with notes and comments."
+  },
+  {
+    "objectID": "content/publications-notes.html#carbon-footprint-estimation-for-computational-research",
+    "href": "content/publications-notes.html#carbon-footprint-estimation-for-computational-research",
+    "title": "Publications with notes",
+    "section": "Carbon footprint estimation for computational research",
+    "text": "Carbon footprint estimation for computational research\nLoïc Lannelongue & Michael Inouye | nature reviews methods primers | (2023) 3:91 https://doi.org/10.1038/s43586-023-00202-5\nPros and cons around measuring carbon footprint in different context (eg working on a laptop vs a HPC).\nPros and cons of each strategy for carbon footprint estimation\n\n\n\n\n\n\n\n\n\nCharacteristic of each strategy\nOnline calculator\nEmbedded package\nServer-side tool\n\n\n\n\nCompatible with any hardware\nYes\nNo, a dedicated tool needs to be built for each\nYes, provided hardware usage can be monitored\n\n\nCompatible with any programming language\nYes\nNo, a dedicated tool needs to be built for each\nYes\n\n\nCompatible with any task or research field\nYes\nNo, a dedicated tool needs to be built for each\nYes\n\n\nComputing metrics are collected automatically\nNo\nYes\nYes\n\n\nDoes not interfere with existing code\nYes\nNo\nYes\n\n\nEstimates can be obtained beforehand\nYes\nNo\nNo\n\n\nEstimates can be obtained in real time\nNo\nYes\nYes\n\n\nEstimates can be obtained retrospectively\nYes\nOnly if the tracker was active at the time\nYes\n\n\nScalable with large numbers of jobs\nNo\nYes\nYes\n\n\nScalable over long periods of time\nNo\nOnly if the tracker is used every time\nYes\n\n\n\nOther sources of emission need to be included, hardware (“around 70% of the life cycle foot print of a laptop is due to manufacturing alone”), data storage (“the order of magnitude of the carbon footprint of storing 1 terabyte of data is around 10 kgCO2e per year”) and travelling.\nDoing this helps with awareness, efficiency, environmental sustainability (good when writing proposals)."
+  },
+  {
+    "objectID": "content/publications-notes.html#greener-principles-for-environmentally-sustainable-computational-science",
+    "href": "content/publications-notes.html#greener-principles-for-environmentally-sustainable-computational-science",
+    "title": "Publications with notes",
+    "section": "GREENER principles for environmentally sustainable computational science",
+    "text": "GREENER principles for environmentally sustainable computational science\nL. Lannelongue, H.-E. G. Aronson, A. Bateman, E. Birney, T. Caplan, M. Juckes, J. McEntyre, A. D. Morris, G. Reilly and M. Inouye, | Nat Comput Sci, vol. 3, no. 6, pp. 514–521, Jun. 2023, https://doi.org/10.1038/s43588-023-00461-y\nGREENER (Governance, Responsibility, Estimation, Energy and embodied impacts, New collaborations, Education and Research)\nGovernance and responsibility individuals and institutions are both responsible. Ideas:\n\ninitiatives led by grad students and ECRs\nIT teams in HPC centers –&gt; provide training and information (logs)\nPI –&gt; awareness\n\nEstimate and report the energy consumption of algorithms\nMonitoring carbon footprint is essential to identify inefficiencies and opportunities for improvement. Not only individual/local work also in HPC and at the project level.\nRequires a lot of information not always available like thermal design power, PUE.\nTackling energy and embodied impacts through new collaborations\nCarbon intensity depends on location. Changing carbon intensity at the city/state level is impossible, moving research somewhere else would be also hard. Collaborating with people in low carbon intensity region may open new opportunities.\nWater usage, ecological impacts, and carbon footprint from manufacturing hardware are also significant.\nData storage is key. Some estimate 10kgCO2e per 1TB of data a year. It get worse with duplicated data.\nThe importance of dedicated education and research efforts for ESCS (environmen-tally sustainable computational science)\nEducation is important to raise awareness.\n\nFormal training at undergraduate programs\nprogramminglanguages in research, such as R and Python 95, tend to be the leastenergy-efficient ones –&gt; need for RSEs to help write efficient code.\n\nCultural change\nPeople wait for technology to change instead of changing the way they use it.\nGreencomputing and FAIR practices may both stimulate innovation andreduce financial costs."
+  },
+  {
+    "objectID": "content/glossary.html",
+    "href": "content/glossary.html",
+    "title": "Glossary",
+    "section": "",
+    "text": "Carbon intensity amount of GHGs emitted to produce a certain amount of energy. Depends on the source of electricity production.\nGHG green-house gas.\ngrams of CO2e ()gCO2e) global warming impact of a range of GHGs.\nPower usage effectiveness (PUE) efficiency of a computing facility.\nThermal design power how much heat the chip can be expected to dissipate in a normal setting as a proxy for power usage."
+  }
+]

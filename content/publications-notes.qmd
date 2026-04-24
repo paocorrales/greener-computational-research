@@ -1,0 +1,132 @@
+---
+title: "Publications with notes"
+editor: visual
+---
+
+List of papers with notes and comments.
+
+## Carbon footprint estimation for computational research
+
+Loïc Lannelongue & Michael Inouye \| nature reviews methods primers \| (2023) 3:91 <https://doi.org/10.1038/s43586-023-00202-5>
+
+Pros and cons around measuring carbon footprint in different context (eg working on a laptop vs a HPC).
+
+Pros and cons of each strategy for carbon footprint estimation
+
+| Characteristic of each strategy | Online calculator | Embedded package | Server-side tool |
+|------------------|------------------|------------------|------------------|
+| Compatible with any hardware | Yes | No, a dedicated tool needs to be built for each | Yes, provided hardware usage can be monitored |
+| Compatible with any programming language | Yes | No, a dedicated tool needs to be built for each | Yes |
+| Compatible with any task or research field | Yes | No, a dedicated tool needs to be built for each | Yes |
+| Computing metrics are collected automatically | No | Yes | Yes |
+| Does not interfere with existing code | Yes | No | Yes |
+| Estimates can be obtained beforehand | Yes | No | No |
+| Estimates can be obtained in real time | No | Yes | Yes |
+| Estimates can be obtained retrospectively | Yes | Only if the tracker was active at the time | Yes |
+| Scalable with large numbers of jobs | No | Yes | Yes |
+| Scalable over long periods of time | No | Only if the tracker is used every time | Yes |
+
+Other sources of emission need to be included, hardware ("around 70% of the life cycle foot print of a laptop is due to manufacturing alone"), data storage ("the order of magnitude of the carbon footprint of storing 1 terabyte of data is around 10 kgCO2e per year") and travelling.
+
+Doing this helps with awareness, efficiency, environmental sustainability (good when writing proposals).
+
+## GREENER principles for environmentally sustainable computational science
+
+L. Lannelongue, H.-E. G. Aronson, A. Bateman, E. Birney, T. Caplan, M. Juckes, J. McEntyre, A. D. Morris, G. Reilly and M. Inouye, \| Nat Comput Sci, vol. 3, no. 6, pp. 514–521, Jun. 2023, <https://doi.org/10.1038/s43588-023-00461-y>
+
+GREENER (Governance, Responsibility, Estimation, Energy and embodied impacts, New collaborations, Education and Research)
+
+**Governance and responsibility** individuals and institutions are both responsible. Ideas:
+
+-   initiatives led by grad students and ECRs
+
+-   IT teams in HPC centers –\> provide training and information (logs)
+
+-   PI –\> awareness
+
+**Estimate and report the energy consumption of algorithms**
+
+Monitoring carbon footprint is essential to identify inefficiencies and opportunities for improvement. Not only individual/local work also in HPC and at the project level.
+
+Requires a lot of information not always available like thermal design power, PUE.
+
+**Tackling energy and embodied impacts through new collaborations**
+
+Carbon intensity depends on location. Changing carbon intensity at the city/state level is impossible, moving research somewhere else would be also hard. Collaborating with people in low carbon intensity region may open new opportunities.
+
+Water usage, ecological impacts, and carbon footprint from manufacturing hardware are also significant.
+
+Data storage is key. Some estimate 10kgCO2e per 1TB of data a year. It get worse with duplicated data.
+
+**The importance of dedicated education and research efforts for ESCS (environmen-tally sustainable computational science)**
+
+Education is important to raise awareness.
+
+-   Formal training at undergraduate programs
+
+-   programminglanguages in research, such as R and Python 95, tend to be the leastenergy-efficient ones –\> need for RSEs to help write efficient code.
+
+**Cultural change**
+
+People wait for technology to change instead of changing the way they use it.
+
+Greencomputing and FAIR practices may both stimulate innovation andreduce financial costs.
+
+# Ten simple rules to make your computing more environmentally sustainable
+
+Lannelongue L, Grealey J, Bateman A, Inouye M \| PLoS Comput Biol 17(9): e1009324. <https://doi.org/10.1371/journal.pcbi.1009324>
+
+**Rule 1: Calculate the carbon footprint of your work**
+
+The environmental impact of computing can be broadly divided between (i)
+the carbon footprint of powering the computers during the task itself;
+(ii) the impact of long-term data storage; and (iii) the life cycle
+footprint of the hardware.
+
+servers represents 50% of data centre's energy usage. Data storage represent 10%. end to end environmental impact is hard to calculate.
+
+**Rule 2: Include the carbon footprint in your cost–benefit analysi**s
+
+Considere carbon footprint when deciding if a project is a good idea.
+
+**Rule 3: Keep, repair, and reuse devices to minimise electronic waste**
+
+have less devices, use them for as long as possible. Recycle correctly.
+
+**Rule 4: Choose your computing facility**
+
+Could computing?
+
+**Rule 5: Choose your hardware carefully**
+
+Allocating extra gigabytes to a task “just to be safe” or to avoid
+having to optimise the code increases the carbon
+footprint substantially
+
+**Rule 6: Increase efficiency of the code**
+
+-   Limit peak memory requirements
+
+-   be wary of hardware choices resulting in only small runtime improvements
+
+-   use recent optimised libraries
+
+-   use profilers to optimise code
+
+**Rule 7: Be a frugal analyst**
+
+-   test and debug the entire pipeline on small example datasets
+
+-   checkpoint your code (i.e., save intermediary states to resume from in case of error) to limit unnecessary computations.
+
+**Rule 8: Releasing a new software? Make its hardware requirements and carbon footprint clear**
+
+developers should make it clear what the best hardware choices are for each situation. Also memory allocation (it's usually overestimated)
+
+Rule 9: Be aware of unanticipated consequences of improved software efficiency
+
+increased efficiency in a process leads to greater increases in usage
+
+**Rule 10: Offset your carbon footprint**
+
+Carbon offsetting is complex, with debated benefits, and should never replace decreasing GHG emissions in the first place; however, it can mitigate the environmental impact of a project.

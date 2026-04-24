@@ -1,0 +1,14 @@
+---
+title: "Glossary"
+editor: visual
+---
+
+**Carbon intensity** amount of GHGs emitted to produce a certain amount of energy. Depends on the source of electricity production.
+
+**GHG** green-house gas.
+
+**grams of CO2e ()gCO2e)** global warming impact of a range of GHGs.
+
+**Power usage effectiveness (PUE)** efficiency of a computing facility.
+
+**Thermal design power** how much heat the chip can be expected to dissipate in a normal setting as a proxy for power usage.

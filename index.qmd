@@ -1,0 +1,12 @@
+# Oh, hello there!
+
+This is a very opinionated website were I'm compiling information and tools around make 
+research more sustainable. This is part of [my project as a SSI fellow for 2026](https://www.youtube.com/watch?v=NjxF2U-cs8s). 
+
+The key word here is "compiling", for now I'm not planning to develop or write any new material
+about the topic (for now! and except for some presentations). The main goal is to create a list of specific resources that can be useful 
+for researchers in Australia (and maybe Latin America?). 
+
+## So, about me
+
+I'm [Pao](https://paocorrales.github.io/), I have a PhD in Atmospheric Science from the University of Buenos Aires. During my PhD, I applied data assimilation techniques to improve the representation of mesoscale convective systems and associated precipitation. I have experience working with Numerical Weather Prediction models and developing software using R and Fortran. I'm also part of R-Ladies, a mentor at rOpenSci and part of the Board of Directors for The Carpentries. I'm interested in open source, open science and reproducibility. I also develop openly licensed materials to teach and learn R, reproducibility for researchers and other tools. In 2025, I joined the ARC Centre of Excellence for the Weather of the 21st Century as a research software engineer supporting research and the development of high-resolution climate models. And not, I'm also a SSI fellow!

@@ -1,0 +1,27 @@
+project:
+  type: website
+
+website:
+  title: "Green Computing (for Climate Science)"
+  navbar:
+    right:
+      - href: content/publications-notes.qmd
+        text: Publication notes
+      - href: content/presentations.qmd
+        text: Presentations
+      - href: content/glossary.qmd
+        text: Glossary
+      - href: content/questions.qmd
+        text: Questions
+
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+      - styles.scss
+    toc: true
+
+
+

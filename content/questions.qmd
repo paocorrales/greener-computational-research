@@ -1,0 +1,6 @@
+---
+title: "Open questions"
+editor: visual
+---
+
+1.  According to <https://doi.org/10.1038/s43588-023-00461-y>, Australia is at the top of high-income countries in term of carbon intensity ( 770 gCO2 e kWh −1) . It's that accurate?

@@ -9,6 +9,10 @@ website:
         text: Publication notes
       - href: content/presentations.qmd
         text: Presentations
+      - text: "Tools"
+        menu:
+          - text: Green Algorithms
+            href: content/tools/green-algorithms.qmd
       - href: content/glossary.qmd
         text: Glossary
       - href: content/questions.qmd
